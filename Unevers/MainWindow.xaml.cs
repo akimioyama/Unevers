@@ -67,7 +67,7 @@ namespace Unevers
                 tb_summ.Content = "> 100 !";
                 hasError = true;
             }
-            else if (hasError)
+            else if (hasError || sum < 100)
             {
                 tb_summ.Content = "Ошибка";
             }
